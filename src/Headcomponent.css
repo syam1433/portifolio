@@ -1,0 +1,47 @@
+@media screen and (max-width:992px){
+    #nav{
+        max-width: 100%;
+        min-height: 100px;
+        margin: 0;
+    }
+    #nav2{
+        overflow: hidden;
+        width: 100%;
+    }
+    #nav3 p{
+        font-size: 20px;
+    }
+    #nav4{
+        display: none;
+    }
+    #buttn{
+        display: block;
+        color: black;
+        z-index: 1;
+    }
+    #btn{
+        z-index: 1;
+    }
+    #menu-list{
+        border: 2px solid white;
+    }
+}
+@media screen and (max-width:1024px){
+    #menu-list{
+        border: 2px solid white;
+        right: 180px;
+    }
+}
+@media screen and (max-width:540px){
+    #menu-list{
+        border: 2px solid white;
+        right: 320px;
+    }
+}
+@media screen and (max-width:667px){
+    #menu-list{
+        border: 2px solid white;
+        right: 375px;
+    }
+}
+
