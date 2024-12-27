@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
+import "./HeadComponent.css"
 
 function Projects({projects}){
     return(
         <>
-            <div className=" w-full h-autogrid flex flex-col items-center justify-center mt-10">
+            <div id='projects' className=" w-full h-autogrid flex flex-col items-center justify-center mt-10">
                 <h1 className=" text-6xl p-5 font-fonts">Projects</h1>
-                <div className=" h-auto grid col-span-3 w-3/4 gap-16 p-20 grid-cols-3">
+                <div id='data-pro' className=" h-auto grid col-span-3 w-3/4 gap-16 p-20 grid-cols-3">
                 {projects.map((projects, index) => (
                     <div id='block' key={index} className=" cursor-pointer bg-navbg w-80 flex flex-col border-2 p-4">
                         <img className=" h-44" src={projects.Imgurl} alt={projects.title} />
