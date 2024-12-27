@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import "./HeadComponent.css"
+import "./Projects.css"
 
 function Projects({projects}){
     return(

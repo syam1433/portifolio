@@ -1,7 +1,7 @@
-import { useState } from "react";
+
 import { TypeAnimation } from 'react-type-animation';
 import BgImg1 from "./assets/bg-img1.jpg";
-import "./HeadComponent.css"
+import "./Data.css"
 
 function Data(){
 
