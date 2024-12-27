@@ -1,6 +1,7 @@
-import HeadComponent from "./HeadComponent";
-import Data from  "./Data.jsx"
-import Projects from "./Projects";
+import HeadComponent from "./HeadComponent.jsx";
+import Data from "./Data.jsx";
+import Projects from "./Projects.jsx";
+import Resume from "./Resume.jsx";
 
 function App() {
   const projectData = [
@@ -11,13 +12,14 @@ function App() {
     { title: "Amazon", Imgurl: "./src/assets/amazon.png", discription: "A amazon clone using HTML, CSS, and JS.", url: "https://syam1433.github.io/project2/" },
     { title: "Currency", Imgurl: "./src/assets/currency.png", discription: "A Currency converter using HTML CSS and JS.", url: "https://syam1433.github.io/converter/" },
   ];
-    return (
-        <>
-            <HeadComponent />
-            <Data/>
-            <Projects projects={projectData} /> 
-        </>
-    );
+  return (
+    <>
+      <HeadComponent />
+      <Data />
+      <Projects projects={projectData} />
+      <Resume/>
+    </>
+  );
 }
 
 export default App;

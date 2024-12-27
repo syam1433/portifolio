@@ -19,7 +19,8 @@ export default {
         'custom-2': '75%',
       },
       colors:{
-        "navbg":"#DFEBF7"
+        "navbg":"#DFEBF7",
+        "newnav":"#CDCEC8",
       }
     },
   },
