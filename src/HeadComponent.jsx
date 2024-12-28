@@ -21,9 +21,9 @@ function HeadComponent(){
                         <ol className=" flex gap-20">
                             <li className="hover:text-blue-600">Home</li>
                             <li className="hover:text-blue-600"><a href={Project}>Projects</a></li>
-                            <li className="hover:text-blue-600">Contact</li>
                             <li className="hover:text-blue-600">Resume</li>
-                            <li className="hover:text-blue-600">About Me</li>
+                            <li className="hover:text-blue-600">About me</li>
+                            <li className="hover:text-blue-600">Contact</li>
                         </ol>
                     </div>
                     <div id="buttn" className="hidden">

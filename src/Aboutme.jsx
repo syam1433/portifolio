@@ -3,11 +3,9 @@ function Aboutme(){
 
     return(
         <>
-            <div>
-                <div>
-                    
-                </div>
-            </div>
+            <footer>
+                designed by shyam
+            </footer>
         </>
     );
 }

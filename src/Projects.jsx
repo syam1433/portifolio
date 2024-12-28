@@ -8,7 +8,7 @@ function Projects({projects}){
                 <h1 className="z-10 text-6xl p-5 font-fonts">Projects</h1>
                 <div id='data-pro' className=" h-auto grid col-span-3 w-3/4 gap-16 p-20 grid-cols-3">
                 {projects.map((projects, index) => (
-                    <div id='block' key={index} className=" text-black cursor-pointer bg-navbg w-80 flex flex-col border-2 p-4">
+                    <div id='block' key={index} className={`text-black cursor-pointer bg-navbg w-80 flex flex-col border-2 p-4 animation-${index}`}>
                         <img className=" text-black  bg-navbg h-44" src={projects.Imgurl} alt={projects.title} />
                         <p className=" text-black  bg-navbg flex justify-center p-2 text-2xl font-medium font-serif"> {projects.title}</p>
                         <i className=' text-black  bg-navbg'>{projects.discription}</i>

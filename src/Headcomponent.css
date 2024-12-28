@@ -24,7 +24,8 @@
     }
     #menu-list{
         border: 2px solid white;
-
+        background-color: black;
+        left: 80px;
     }
 }
 @media screen and (max-width:1024px){
@@ -45,5 +46,4 @@
         right: 375px;
     }
 }
-
 
