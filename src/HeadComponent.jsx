@@ -32,7 +32,7 @@ function HeadComponent(){
                             className="absolute top-8 right-5 p-2 border-2 text-white rounded-md">
                             {menuVisible ? <FaTimes size={24} /> : <FiMenu size={24} />}
                         </button>
-                        <div className=" absolute right-48 top-9 ">
+                        <div className=" -mt-2 absolute right-48 top-9 ">
                             <div id="menu-list"
                                 className={` border-2 absolute w-44 h-auto bg-gray-800 text-white transform ${
                                 menuVisible ? 'display' : 'hidden'
