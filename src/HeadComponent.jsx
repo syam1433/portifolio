@@ -27,33 +27,35 @@ function HeadComponent(){
                         </ol>
                     </div>
                     <div id="buttn" className="hidden">
-                    <button id="btn"
-                        onClick={toggleMenu}
-                        className="absolute top-8 right-5 p-2 bg-blue-500 text-white rounded-md shadow-md">
-                        {menuVisible ? <FaTimes size={24} /> : <FiMenu size={24} />}
-                    </button>
-                    <div id="menu-list"
-                        className={` flex justify-start absolute top-5 w-44 h-auto bg-gray-800 text-white left-7 transform ${
-                        menuVisible ? ' translate-x-full' : 'hidden'
-                        } transition-transform duration-500 ease-in`}>
-                        <ul className="flex flex-col gap-4 p-4">
-                        <li className="hover:bg-gray-600 p-2 rounded-md cursor-pointer">
-                            Home
-                        </li>
-                        <li className="hover:bg-gray-600 p-2 rounded-md cursor-pointer">
-                        Projects
-                        </li>
-                        <li className="hover:bg-gray-600 p-2 rounded-md cursor-pointer">
-                        Contact
-                        </li>
-                        <li className="hover:bg-gray-600 p-2 rounded-md cursor-pointer">
-                        Resume
-                        </li>
-                        <li className="hover:bg-gray-600 p-2 rounded-md cursor-pointer">
-                        About Me
-                        </li>
-                        </ul>
-                    </div>
+                        <button id="btn"
+                            onClick={toggleMenu}
+                            className="absolute top-8 right-5 p-2 border-2 text-white rounded-md">
+                            {menuVisible ? <FaTimes size={24} /> : <FiMenu size={24} />}
+                        </button>
+                        <div className=" absolute right-48 top-9 ">
+                            <div id="menu-list"
+                                className={` border-2 absolute w-44 h-auto bg-gray-800 text-white transform ${
+                                menuVisible ? 'display' : 'hidden'
+                                } transition-transform duration-500 ease-in`}>
+                                <ul className="flex flex-col gap-4 p-4">
+                                    <li className="hover:bg-gray-600 p-2 rounded-md cursor-pointer">
+                                        Home
+                                    </li>
+                                    <li className="hover:bg-gray-600 p-2 rounded-md cursor-pointer">
+                                        Projects
+                                    </li>
+                                    <li className="hover:bg-gray-600 p-2 rounded-md cursor-pointer">
+                                        Contact
+                                    </li>
+                                    <li className="hover:bg-gray-600 p-2 rounded-md cursor-pointer">
+                                        Resume
+                                    </li>
+                                    <li className="hover:bg-gray-600 p-2 rounded-md cursor-pointer">
+                                        About Me
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </div>

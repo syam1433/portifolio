@@ -1,5 +1,5 @@
 @media screen and (max-width:992px){
-    #Coder{
+    /* #Coder{
         display: flex;
         align-items:  start;
         margin-top: 100px;
@@ -22,5 +22,18 @@
         padding: 30px;
         width: 100%;
         margin-top: -20px;
-    }
+    } */
+     #body{
+        display: flex;
+        flex-direction: column;
+     }
+     #TypeAnimation{
+        width: 100%;
+        font-size: 10px;
+        font-family: poppins;
+     }
+     #data{
+        font-size: 12px;
+        padding: 5px;
+     }
 }

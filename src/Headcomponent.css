@@ -22,7 +22,8 @@
     #btn{
         z-index: 1;
     }
-    #menu-list{
+}
+    /* #menu-list{
         border: 2px solid white;
         background-color: black;
         left: 80px;
@@ -46,4 +47,4 @@
         right: 375px;
     }
 }
-
+ */
