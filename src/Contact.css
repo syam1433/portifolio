@@ -32,9 +32,11 @@
 
 #name{
     animation: appear-left 1s ease-in-out;
+
 }
 #email{
     animation: appear-right 1s ease-in-out;
+
 }
 #message{
     animation: appear-down 1s ease-in-out;

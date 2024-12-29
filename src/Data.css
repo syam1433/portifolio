@@ -33,11 +33,12 @@
         width: 100%;
         font-size: 10px;
         font-family: poppins;
+        display: flex;
+        align-items: center;
      }
      #data{
         font-size: 12px;
         padding: 5px;
-        display: flex;
-        justify-content: center;
+        
      }
 }

@@ -3,7 +3,7 @@ import Data from "./Data.jsx";
 import Projects from "./Projects.jsx";
 import Resume from "./Resume.jsx";
 import Contact from "./Contact.jsx";
-
+import Aboutme from "./Aboutme.jsx"
 
 function App() {
   const projectData = [
@@ -21,6 +21,7 @@ function App() {
       <Projects projects={projectData} />
       <Resume/>
       <Contact/>
+      <Aboutme/>
     </>
   );
 }

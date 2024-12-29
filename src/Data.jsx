@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 import "./Data.css"
 
 function Data(){
-
+    
 
     return(
         <>
@@ -14,7 +14,7 @@ function Data(){
                     <div id='Coder' className=' w-96 flex justify-center items-center'>
                         <img className=' rounded-full' width={250} height={250} src="https://static.vecteezy.com/system/resources/thumbnails/016/746/979/small_2x/freelancer-software-developer-programmer-coder-illustrator-vector.jpg" alt="" />
                     </div>
-                    <div id="TypeAnimation" className=" font-fonts  w-4/6 flex flex-col items-center gap-9 justify-center text-2xl">
+                    <div id="TypeAnimation" className=" font-fonts  w-4/6 flex flex-col items-start gap-9 justify-center text-2xl">
                        <TypeAnimation
                           sequence={[
                             // Same substring at the start will only be typed out once, initially

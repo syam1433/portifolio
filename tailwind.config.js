@@ -21,6 +21,7 @@ export default {
       colors:{
         "navbg":"#DFEBF7",
         "newnav":"#CDCEC8",
+        "footbg":"#222F3D",
       }
     },
   },

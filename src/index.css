@@ -11,4 +11,8 @@
   color: white;
 }
 
-
+@media screen and (max-width:992px){
+  #teta{
+    font-size: 18px;
+  }
+}

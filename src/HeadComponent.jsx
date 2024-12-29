@@ -12,7 +12,7 @@ function HeadComponent(){
     };
     return(
         <>
-            <div id="nav" className="  font-fonts cursor-pointer  w-full h-24 flex justify-center">
+            <div id="nav" className=" font-fonts cursor-pointer  w-full h-24 flex justify-center">
                 <div id="nav2" className=" border-2 mt-2 rounded-full w-4/5 p-4 flex justify-between items-center">
                     <div id="nav3" className=" text-4xl">
                         <p className="hover:text-blue-600">Portifolio</p>
