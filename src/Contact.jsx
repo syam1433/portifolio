@@ -17,10 +17,10 @@ function Contact(){
         e.preventDefault();
         emailjs
           .send(
-            'service_4p2cdoo', // Replace with your EmailJS service ID
-            'template_xqdqg1o', // Replace with your EmailJS template ID
+            'service_4p2cdoo',
+            'template_xqdqg1o', 
             formData,
-            'l5zkLrbCvQL1cuFPr' // Replace with your EmailJS public key
+            'l5zkLrbCvQL1cuFPr'
           )
           .then(
             (result) => {
@@ -32,6 +32,8 @@ function Contact(){
             }
           );
       };
+
+
     
       return (
         <form onSubmit={handleSubmit} className=" mt-10 flex flex-col items-center p-6">

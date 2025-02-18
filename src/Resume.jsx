@@ -7,7 +7,7 @@ function Resume(){
 
     function download(){
         const link = document.createElement("a");
-        link.href = "./Durga-Syamalarao-Paina-FlowCV-Resume-20241222.pdf";
+        link.href = "./resume of paina durga syamalarao.pdf";
         link.download = "syam.pdf";
         link.click();
     }
